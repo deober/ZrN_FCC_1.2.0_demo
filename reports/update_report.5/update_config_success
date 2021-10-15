@@ -1,0 +1,15 @@
+[
+  {
+    "atomic_deformation_cost" : 0.000000000000,
+    "best_score" : -20.369797000000,
+    "energy" : -20.369797000000,
+    "has_all_required_properties" : true,
+    "has_any_required_properties" : true,
+    "is_new_best" : false,
+    "lattice_deformation_cost" : 0.000000000000,
+    "properties_origin" : "/media/derick/DeoResearch/experiments/ZrN_FCC_1.2.0_working/training_data/SCEL1_1_1_1_0_0_0/0/calctype.default/properties.calc.json",
+    "score" : -20.369797000000,
+    "selected" : false,
+    "to_configname" : "SCEL1_1_1_1_0_0_0/0"
+  }
+]

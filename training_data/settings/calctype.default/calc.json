@@ -1,0 +1,12 @@
+{
+"queue":"batch",
+"walltime":"50:00:00",
+"email":"dober@ucsb.edu",
+"ppn":"12",
+"run_limit":10,
+"nrg_convergence":0.002,
+"software":"vasp",
+"method":"relax",
+"nodes": 1
+}
+

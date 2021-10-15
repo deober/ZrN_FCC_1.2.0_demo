@@ -1,0 +1,174 @@
+# 2021-10-13 18:48:38
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm composition --calc 
+# return: 0 runtime(s): 0.0087186
+
+# 2021-10-13 18:48:43
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm composition --select 0 
+# return: 0 runtime(s): 0.00859031
+
+# 2021-10-13 18:49:26
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm import -s import_settings.json -b batchfile 
+# return: 0 runtime(s): 11.6753
+
+# 2021-10-13 18:49:56
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm update 
+# return: 0 runtime(s): 0.366762
+
+# 2021-10-13 18:50:29
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm update 
+# return: 0 runtime(s): 0.378635
+
+# 2021-10-13 18:51:04
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm update 
+# return: 0 runtime(s): 0.375109
+
+# 2021-10-13 18:55:50
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm select --set-on 
+# return: 0 runtime(s): 0.105802
+
+# 2021-10-13 18:55:54
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm update 
+# return: 0 runtime(s): 0.384553
+
+# 2021-10-13 18:56:05
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm query --write-structure 
+# return: 0 runtime(s): 0.159266
+
+# 2021-10-13 18:56:23
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm update 
+# return: 0 runtime(s): 0.376393
+
+# 2021-10-13 18:56:39
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+casm query -k name selected  -c MASTER -t config -v -o STDOUT 
+# return: 0 runtime(s): 0.098988
+
+# 2021-10-13 21:05:40
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm update 
+# return: 0 runtime(s): 0.374693
+
+# 2021-10-13 21:06:03
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm update 
+# return: 0 runtime(s): 0.382567
+
+# 2021-10-13 21:06:09
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm query -k 
+# return: 0 runtime(s): 0.105456
+
+# 2021-10-13 21:06:23
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm select --set eq(is_calculated, 1) 
+# return: 0 runtime(s): 0.281314
+
+# 2021-10-13 21:06:43
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm query -k is_calculated 
+# return: 0 runtime(s): 0.330015
+
+# 2021-10-13 21:06:58
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm query -k energy 
+# return: 0 runtime(s): 0.286076
+
+# 2021-10-13 21:07:58
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm bset -uf 
+# return: 0 runtime(s): 78.6621
+
+# 2021-10-13 21:15:06
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm enum --method ScelEnum --max 15 
+# return: 0 runtime(s): 0.222555
+
+# 2021-10-13 21:15:17
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm enum --method ConfigEnumAllOccupations --all 
+# return: 0 runtime(s): 26.082
+
+# 2021-10-13 21:16:44
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm select --set-on 
+# return: 0 runtime(s): 15.4556
+
+# 2021-10-13 21:17:30
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm query -k corr comp formation_energy -j -o^Corr_comp_formation_energy_incomplete.json 
+# return: 0 runtime(s): 50.4952
+
+# 2021-10-13 21:18:33
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm query -k corr comp formation_energy -j -o Corr_comp_formation_energy_incomplete.json 
+# return: 0 runtime(s): 49.1856
+
+# 2021-10-13 21:20:46
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm select --set eq(is_calculated,1) 
+# return: 0 runtime(s): 16.3775
+
+# 2021-10-13 21:21:21
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm query -k corr comp formation_energy -j -o corr_comp_formation_energy_complete.json 
+# return: 0 runtime(s): 13.8072
+
+# 2021-10-13 21:25:17
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm ref --set-auto 
+# return: 0 runtime(s): 10.2073
+
+# 2021-10-13 21:27:18
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm query -k corr comp formation_energy -j -o corr_comp_formation_energy_complete.json 
+# return: 0 runtime(s): 13.5986
+
+# 2021-10-13 21:27:56
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm select --set-on 
+# return: 0 runtime(s): 15.1054
+
+# 2021-10-13 21:28:25
+# derick@derick-X570-AORUS-MASTER
+# 1.2.0
+ccasm query -k corr comp formation_energy -j -o corr_comp_formation_energy_incomplete.json 
+# return: 0 runtime(s): 49.3253
+
