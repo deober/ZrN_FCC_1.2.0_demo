@@ -1,0 +1,4 @@
+# name selected comp(a) is_calculated configname dft_hull_dist formation_energy is_primitive clex_hull_dist clex(formation_energy) clex_dft_hull_dist
+SCEL4_4_1_1_0_2_1/2 1 0.25 1 SCEL4_4_1_1_0_2_1/2 0.0 -0.04806673 1 0.00060926 -0.04959001 0.00060926
+SCEL8_4_2_1_1_2_0/3 1 0.75 1 SCEL8_4_2_1_1_2_0/3 0.0 -0.09840241 1 0.00086725 -0.09791446 0.00086725
+SCEL8_4_2_1_1_2_0/0 1 0.875 1 SCEL8_4_2_1_1_2_0/0 0.0 -0.06638895 1 0.00124476 -0.06345311 0.00124476

@@ -1,0 +1,71 @@
+Loading genetic_alg_settings.json
+Loading Hall of Fame: genetic_alg_settings_halloffame.pkl
+# Get problem data...
+# Reading existing problem specs from: genetic_alg_settings_specs.pkl
+#   DONE
+
+-- Check: individual 0  --
+Index: Selected                                    #Selected    CV           RMS          wRMS         Estimator                FeatureSelection         Note
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    0: 1111001101011011101000011111110111100100... 99           0.0051996429 0.0043727964 0.0043757552 LinearRegression         GeneticAlgorithm         
+
+Writing: /media/derick/DeoResearch/experiments/ZrN_FCC_1.2.0_demo/cluster_expansions/clex.formation_energy/calctype.default/ref.default/bset.default/eci.__tmp/eci.json 
+
+DFT ground states:
+               name  comp(a)          configname  dft_hull_dist  formation_energy  clex_hull_dist  clex(formation_energy)  clex_dft_hull_dist
+SCEL1_1_1_1_0_0_0/1 0.000000 SCEL1_1_1_1_0_0_0/1            0.0          0.039576        0.000000                0.029513            0.000000
+SCEL4_4_1_1_0_2_1/2 0.250000 SCEL4_4_1_1_0_2_1/2            0.0         -0.048067        0.003531               -0.046170            0.003531
+SCEL4_4_1_1_0_2_1/1 0.500000 SCEL4_4_1_1_0_2_1/1            0.0         -0.132468        0.000000               -0.130681            0.000000
+SCEL7_7_1_1_0_3_6/2 0.714286 SCEL7_7_1_1_0_3_6/2            0.0         -0.103985        0.001384               -0.102346            0.000000
+SCEL8_4_2_1_1_2_0/3 0.750000 SCEL8_4_2_1_1_2_0/3            0.0         -0.098402        0.003957               -0.093468            0.001896
+SCEL6_3_2_1_0_1_2/0 0.833333 SCEL6_3_2_1_0_1_2/0            0.0         -0.081766        0.000000               -0.083816            0.000000
+SCEL8_4_2_1_1_2_0/0 0.875000 SCEL8_4_2_1_1_2_0/0            0.0         -0.066389        0.001350               -0.062894            0.000000
+SCEL1_1_1_1_0_0_0/0 1.000000 SCEL1_1_1_1_0_0_0/0            0.0          0.000000        0.000000                0.005900            0.000000
+write: checkhull_genetic_alg_settings_0_dft_gs 
+
+Predicted ground states:
+                name  comp(a)           configname  dft_hull_dist  formation_energy  clex_hull_dist  clex(formation_energy)  clex_dft_hull_dist
+ SCEL1_1_1_1_0_0_0/1 0.000000  SCEL1_1_1_1_0_0_0/1       0.000000          0.039576             0.0                0.029513            0.000000
+ SCEL4_4_1_1_0_2_1/1 0.500000  SCEL4_4_1_1_0_2_1/1       0.000000         -0.132468             0.0               -0.130681            0.000000
+SCEL8_8_1_1_0_5_2/10 0.750000 SCEL8_8_1_1_0_5_2/10       0.002586         -0.093877             0.0               -0.100392           -0.002060
+ SCEL6_3_2_1_0_1_2/0 0.833333  SCEL6_3_2_1_0_1_2/0       0.000000         -0.081766             0.0               -0.083816            0.000000
+ SCEL7_7_1_1_0_3_5/0 0.857143  SCEL7_7_1_1_0_3_5/0       0.002079         -0.069118             0.0               -0.075614           -0.002021
+ SCEL1_1_1_1_0_0_0/0 1.000000  SCEL1_1_1_1_0_0_0/0       0.000000          0.000000             0.0                0.005900            0.000000
+write: checkhull_genetic_alg_settings_0_clex_gs 
+
+DFT ground states that are not predicted ground states:
+               name  comp(a)          configname  dft_hull_dist  formation_energy  clex_hull_dist  clex(formation_energy)  clex_dft_hull_dist
+SCEL4_4_1_1_0_2_1/2 0.250000 SCEL4_4_1_1_0_2_1/2            0.0         -0.048067        0.003531               -0.046170            0.003531
+SCEL7_7_1_1_0_3_6/2 0.714286 SCEL7_7_1_1_0_3_6/2            0.0         -0.103985        0.001384               -0.102346            0.000000
+SCEL8_4_2_1_1_2_0/3 0.750000 SCEL8_4_2_1_1_2_0/3            0.0         -0.098402        0.003957               -0.093468            0.001896
+SCEL8_4_2_1_1_2_0/0 0.875000 SCEL8_4_2_1_1_2_0/0            0.0         -0.066389        0.001350               -0.062894            0.000000
+write: checkhull_genetic_alg_settings_0_gs_missing 
+
+Predicted ground states that are not DFT ground states:
+                name  comp(a)           configname  dft_hull_dist  formation_energy  clex_hull_dist  clex(formation_energy)  clex_dft_hull_dist
+SCEL8_8_1_1_0_5_2/10 0.750000 SCEL8_8_1_1_0_5_2/10       0.002586         -0.093877             0.0               -0.100392           -0.002060
+ SCEL7_7_1_1_0_3_5/0 0.857143  SCEL7_7_1_1_0_3_5/0       0.002079         -0.069118             0.0               -0.075614           -0.002021
+write: checkhull_genetic_alg_settings_0_gs_spurious 
+
+All configurations predicted below the prediction of the DFT hull:
+                name  comp(a)           configname  dft_hull_dist  formation_energy  clex_hull_dist  clex(formation_energy)  clex_dft_hull_dist
+SCEL8_8_1_1_0_5_2/10 0.750000 SCEL8_8_1_1_0_5_2/10       0.002586         -0.093877        0.000000               -0.100392           -0.002060
+ SCEL8_4_1_2_0_0_1/1 0.750000  SCEL8_4_1_2_0_0_1/1       0.001890         -0.095095        0.001622               -0.097554           -0.000438
+ SCEL8_4_1_2_0_1_2/4 0.750000  SCEL8_4_1_2_0_1_2/4       0.003294         -0.092639        0.001938               -0.097001           -0.000122
+ SCEL7_7_1_1_0_3_5/0 0.857143  SCEL7_7_1_1_0_3_5/0       0.002079         -0.069118        0.000000               -0.075614           -0.002021
+ SCEL8_4_1_2_0_1_2/0 0.875000  SCEL8_4_1_2_0_1_2/0       0.001501         -0.063574        0.000814               -0.063899           -0.000536
+write: checkhull_genetic_alg_settings_0_below_hull 
+
+ranged_rms:
+  RMS error for 10 calculated configurations within 0.001 eV/unitcell of the DFT hull: 0.004707163971973994
+  RMS error for 21 calculated configurations within 0.005 eV/unitcell of the DFT hull: 0.0044856984746711025
+  RMS error for 37 calculated configurations within 0.01 eV/unitcell of the DFT hull: 0.0049284149510576015
+  RMS error for 313 calculated configurations within 0.05 eV/unitcell of the DFT hull: 0.004916753171032402
+  RMS error for 625 calculated configurations within 0.1 eV/unitcell of the DFT hull: 0.004379285009812209
+  RMS error for 627 calculated configurations within 0.5 eV/unitcell of the DFT hull: 0.004372796451392464
+  RMS error for 627 calculated configurations within all eV/unitcell of the DFT hull: 0.004372796366552482
+
+
+
+
+Pickling Hall of Fame to: genetic_alg_settings_halloffame.pkl
