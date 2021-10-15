@@ -1,0 +1,17 @@
+--- Lattices as column vector matrices ---
+
+  superduperlattice: SCEL1344_84_8_2_4_12_20
+
+  superduperlattice lattice: 
+ 4.58152  9.16305  64.1413
+ 4.58152  18.3261 -36.6522
+-18.3261  9.16305  9.16305
+
+  Transformation matrix, relative the primitive cell:
+ -4   4 -20
+ -4   0  24
+  6   4   4
+
+Write supercell database...
+  DONE
+

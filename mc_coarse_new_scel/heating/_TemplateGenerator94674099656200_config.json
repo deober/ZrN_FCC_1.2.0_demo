@@ -1,0 +1,12 @@
+{
+    "__input_dir": "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/heating/",
+    "__input_names": [
+        "transfmat"
+    ],
+    "__output_dir": "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/heating/",
+    "__output_names": [
+        "cached_output/template.nc"
+    ],
+    "__tinc_metadata_version": 0,
+    "__verbose": false
+}

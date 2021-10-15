@@ -1,0 +1,13 @@
+-- Read: Monte Carlo settings -- 
+from: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/lte/test/mc_settings.json"
+ensemble: GrandCanonical
+method: LTE1
+
+-- Compiling: /media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/basis_sets/bset.default/rocksalt_ZrN_casm_1_1_2_Clexulator.cc -- 
+compile time depends on how many basis functions are included
+Error compiling clexulator. To fix: 
+  - Check compiler error messages.
+  - Check compiler options with 'casm settings -l'
+    - Update compiler options with 'casm settings --set-compile-options '...options...'
+    - Make sure the casm headers can be found by including '-I/path/to/casm'
+Clexulator construction failed: could not construct runtime library.

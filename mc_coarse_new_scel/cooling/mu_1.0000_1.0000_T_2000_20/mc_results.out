@@ -1,0 +1,2359 @@
+-- Read: Monte Carlo settings -- 
+from: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/mc_settings.json"
+ensemble: GrandCanonical
+method: Metropolis
+
+-- Compiling: /media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/basis_sets/bset.default/rocksalt_ZrN_casm_1_1_2_Clexulator.cc -- 
+compile time depends on how many basis functions are included
+compile time: 0.000665662 (s)
+
+-- Construct: Grand Canonical Monte Carlo -- 
+project: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm"
+formation_energy cluster expansion: formation_energy
+      property: formation_energy
+      calctype: default
+           ref: default
+          bset: default
+           eci: default
+supercell: 
+ -4   4 -20
+ -4   0  24
+  6   4   4
+use_deltas: false
+
+Sampling: 
+                quantity     requested_precision
+            atom_frac(N)                    none
+           atom_frac(Zr)                    none
+                 comp(a)                   0.001
+               comp_n(N)                    none
+              comp_n(Va)                    none
+              comp_n(Zr)                    none
+        formation_energy                    none
+        potential_energy                    none
+            site_frac(N)                    none
+           site_frac(Va)                    none
+           site_frac(Zr)                    none
+
+automatic convergence mode?: true
+
+-- Check: For existing calculations -- 
+did not find existing calculations
+
+-- Set: Conditions -- 
+T: 2000
+param_chem_pot: [ 1.000000000000 ]
+
+-- Set: DoF -- 
+motif configname: default
+using configuration with default occupation...
+
+-- Set: DoF -- 
+motif configname: auto
+searching for minimum potential energy motif...
+using conditions: 
+T: 2000
+param_chem_pot: [ 1.000000000000 ]
+
+using: SCEL1_1_1_1_0_0_0/0 with potential energy: -0.99957551
+
+-- Set: Conditions -- 
+T: 2000
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.0/initial_state.json"
+
+-- Begin: Conditions 0 -- 
+
+-- End: Conditions 0 -- 
+run time: 21.054635 (s),  0.021054635 (s/pass),  1.5665651e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.0/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.0/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1980
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.1/initial_state.json"
+
+-- Begin: Conditions 1 -- 
+
+-- End: Conditions 1 -- 
+run time: 21.072255 (s),  0.021072255 (s/pass),  1.5678761e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.1/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.1/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1960
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.2/initial_state.json"
+
+-- Begin: Conditions 2 -- 
+
+-- End: Conditions 2 -- 
+run time: 20.895586 (s),  0.020895586 (s/pass),  1.5547311e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.2/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.2/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1940
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.3/initial_state.json"
+
+-- Begin: Conditions 3 -- 
+
+-- End: Conditions 3 -- 
+run time: 21.290263 (s),  0.021290263 (s/pass),  1.584097e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.3/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.3/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1920
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.4/initial_state.json"
+
+-- Begin: Conditions 4 -- 
+
+-- End: Conditions 4 -- 
+run time: 21.219068 (s),  0.021219068 (s/pass),  1.5787997e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.4/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.4/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1900
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.5/initial_state.json"
+
+-- Begin: Conditions 5 -- 
+
+-- End: Conditions 5 -- 
+run time: 21.003595 (s),  0.021003595 (s/pass),  1.5627675e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.5/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.5/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1880
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.6/initial_state.json"
+
+-- Begin: Conditions 6 -- 
+
+-- End: Conditions 6 -- 
+run time: 21.274566 (s),  0.021274566 (s/pass),  1.5829291e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.6/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.6/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1860
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.7/initial_state.json"
+
+-- Begin: Conditions 7 -- 
+
+-- End: Conditions 7 -- 
+run time: 21.451086 (s),  0.021451086 (s/pass),  1.596063e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.7/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.7/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1840
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.8/initial_state.json"
+
+-- Begin: Conditions 8 -- 
+
+-- End: Conditions 8 -- 
+run time: 21.156938 (s),  0.021156938 (s/pass),  1.5741769e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.8/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.8/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1820
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.9/initial_state.json"
+
+-- Begin: Conditions 9 -- 
+
+-- End: Conditions 9 -- 
+run time: 21.276288 (s),  0.021276288 (s/pass),  1.5830572e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.9/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.9/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1800
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.10/initial_state.json"
+
+-- Begin: Conditions 10 -- 
+
+-- End: Conditions 10 -- 
+run time: 21.079244 (s),  0.021079244 (s/pass),  1.5683961e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.10/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.10/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1780
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.11/initial_state.json"
+
+-- Begin: Conditions 11 -- 
+
+-- End: Conditions 11 -- 
+run time: 21.111685 (s),  0.021111685 (s/pass),  1.5708099e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.11/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.11/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1760
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.12/initial_state.json"
+
+-- Begin: Conditions 12 -- 
+
+-- End: Conditions 12 -- 
+run time: 20.994341 (s),  0.020994341 (s/pass),  1.5620789e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.12/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.12/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1740
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.13/initial_state.json"
+
+-- Begin: Conditions 13 -- 
+
+-- End: Conditions 13 -- 
+run time: 21.062721 (s),  0.021062721 (s/pass),  1.5671668e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.13/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.13/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1720
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.14/initial_state.json"
+
+-- Begin: Conditions 14 -- 
+
+-- End: Conditions 14 -- 
+run time: 21.042514 (s),  0.021042514 (s/pass),  1.5656632e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.14/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.14/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1700
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.15/initial_state.json"
+
+-- Begin: Conditions 15 -- 
+
+-- End: Conditions 15 -- 
+run time: 21.010193 (s),  0.021010193 (s/pass),  1.5632584e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.15/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.15/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1680
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.16/initial_state.json"
+
+-- Begin: Conditions 16 -- 
+
+-- End: Conditions 16 -- 
+run time: 21.084477 (s),  0.021084477 (s/pass),  1.5687855e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.16/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.16/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1660
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.17/initial_state.json"
+
+-- Begin: Conditions 17 -- 
+
+-- End: Conditions 17 -- 
+run time: 21.13602 (s),  0.02113602 (s/pass),  1.5726206e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.17/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.17/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1640
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.18/initial_state.json"
+
+-- Begin: Conditions 18 -- 
+
+-- End: Conditions 18 -- 
+run time: 21.13605 (s),  0.02113605 (s/pass),  1.5726228e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.18/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.18/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1620
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.19/initial_state.json"
+
+-- Begin: Conditions 19 -- 
+
+-- End: Conditions 19 -- 
+run time: 21.026473 (s),  0.021026473 (s/pass),  1.5644697e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.19/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.19/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1600
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.20/initial_state.json"
+
+-- Begin: Conditions 20 -- 
+
+-- End: Conditions 20 -- 
+run time: 21.283346 (s),  0.021283346 (s/pass),  1.5835823e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.20/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.20/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1580
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.21/initial_state.json"
+
+-- Begin: Conditions 21 -- 
+
+-- End: Conditions 21 -- 
+run time: 21.06723 (s),  0.02106723 (s/pass),  1.5675022e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.21/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.21/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1560
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.22/initial_state.json"
+
+-- Begin: Conditions 22 -- 
+
+-- End: Conditions 22 -- 
+run time: 21.391824 (s),  0.021391824 (s/pass),  1.5916536e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.22/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.22/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1540
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.23/initial_state.json"
+
+-- Begin: Conditions 23 -- 
+
+-- End: Conditions 23 -- 
+run time: 21.138992 (s),  0.021138992 (s/pass),  1.5728417e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.23/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.23/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1520
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.24/initial_state.json"
+
+-- Begin: Conditions 24 -- 
+
+-- End: Conditions 24 -- 
+run time: 20.901391 (s),  0.020901391 (s/pass),  1.555163e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.24/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.24/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1500
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.25/initial_state.json"
+
+-- Begin: Conditions 25 -- 
+
+-- End: Conditions 25 -- 
+run time: 21.396209 (s),  0.021396209 (s/pass),  1.5919798e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.25/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.25/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1480
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.26/initial_state.json"
+
+-- Begin: Conditions 26 -- 
+
+-- End: Conditions 26 -- 
+run time: 21.043733 (s),  0.021043733 (s/pass),  1.565754e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.26/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.26/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1460
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.27/initial_state.json"
+
+-- Begin: Conditions 27 -- 
+
+-- End: Conditions 27 -- 
+run time: 21.096923 (s),  0.021096923 (s/pass),  1.5697115e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.27/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.27/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1440
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.28/initial_state.json"
+
+-- Begin: Conditions 28 -- 
+
+-- End: Conditions 28 -- 
+run time: 21.188092 (s),  0.021188092 (s/pass),  1.5764949e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.28/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.28/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1420
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.29/initial_state.json"
+
+-- Begin: Conditions 29 -- 
+
+-- End: Conditions 29 -- 
+run time: 21.302687 (s),  0.021302687 (s/pass),  1.5850214e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.29/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.29/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1400
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.30/initial_state.json"
+
+-- Begin: Conditions 30 -- 
+
+-- End: Conditions 30 -- 
+run time: 21.190589 (s),  0.021190589 (s/pass),  1.5766807e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.30/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.30/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1380
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.31/initial_state.json"
+
+-- Begin: Conditions 31 -- 
+
+-- End: Conditions 31 -- 
+run time: 21.360811 (s),  0.021360811 (s/pass),  1.5893461e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.31/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.31/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1360
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.32/initial_state.json"
+
+-- Begin: Conditions 32 -- 
+
+-- End: Conditions 32 -- 
+run time: 21.191213 (s),  0.021191213 (s/pass),  1.5767271e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.32/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.32/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1340
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.33/initial_state.json"
+
+-- Begin: Conditions 33 -- 
+
+-- End: Conditions 33 -- 
+run time: 20.998289 (s),  0.020998289 (s/pass),  1.5623727e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.33/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.33/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1320
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.34/initial_state.json"
+
+-- Begin: Conditions 34 -- 
+
+-- End: Conditions 34 -- 
+run time: 21.113725 (s),  0.021113725 (s/pass),  1.5709616e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.34/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.34/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1300
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.35/initial_state.json"
+
+-- Begin: Conditions 35 -- 
+
+-- End: Conditions 35 -- 
+run time: 21.006471 (s),  0.021006471 (s/pass),  1.5629815e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.35/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.35/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1280
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.36/initial_state.json"
+
+-- Begin: Conditions 36 -- 
+
+-- End: Conditions 36 -- 
+run time: 20.964855 (s),  0.020964855 (s/pass),  1.559885e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.36/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.36/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1260
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.37/initial_state.json"
+
+-- Begin: Conditions 37 -- 
+
+-- End: Conditions 37 -- 
+run time: 20.898507 (s),  0.020898507 (s/pass),  1.5549484e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.37/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.37/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1240
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.38/initial_state.json"
+
+-- Begin: Conditions 38 -- 
+
+-- End: Conditions 38 -- 
+run time: 20.905354 (s),  0.020905354 (s/pass),  1.5554579e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.38/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.38/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1220
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.39/initial_state.json"
+
+-- Begin: Conditions 39 -- 
+
+-- End: Conditions 39 -- 
+run time: 20.995119 (s),  0.020995119 (s/pass),  1.5621368e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.39/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.39/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1200
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.40/initial_state.json"
+
+-- Begin: Conditions 40 -- 
+
+-- End: Conditions 40 -- 
+run time: 20.931687 (s),  0.020931687 (s/pass),  1.5574172e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.40/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.40/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1180
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.41/initial_state.json"
+
+-- Begin: Conditions 41 -- 
+
+-- End: Conditions 41 -- 
+run time: 21.430608 (s),  0.021430608 (s/pass),  1.5945393e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.41/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.41/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1160
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.42/initial_state.json"
+
+-- Begin: Conditions 42 -- 
+
+-- End: Conditions 42 -- 
+run time: 21.052057 (s),  0.021052057 (s/pass),  1.5663733e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.42/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.42/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1140
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.43/initial_state.json"
+
+-- Begin: Conditions 43 -- 
+
+-- End: Conditions 43 -- 
+run time: 21.687775 (s),  0.021687775 (s/pass),  1.6136737e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.43/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.43/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1120
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.44/initial_state.json"
+
+-- Begin: Conditions 44 -- 
+
+-- End: Conditions 44 -- 
+run time: 21.12575 (s),  0.02112575 (s/pass),  1.5718564e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.44/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.44/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1100
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.45/initial_state.json"
+
+-- Begin: Conditions 45 -- 
+
+-- End: Conditions 45 -- 
+run time: 21.238614 (s),  0.021238614 (s/pass),  1.580254e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.45/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.45/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1080
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.46/initial_state.json"
+
+-- Begin: Conditions 46 -- 
+
+-- End: Conditions 46 -- 
+run time: 21.847863 (s),  0.021847863 (s/pass),  1.625585e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.46/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.46/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1060
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.47/initial_state.json"
+
+-- Begin: Conditions 47 -- 
+
+-- End: Conditions 47 -- 
+run time: 21.193448 (s),  0.021193448 (s/pass),  1.5768934e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.47/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.47/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1040
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.48/initial_state.json"
+
+-- Begin: Conditions 48 -- 
+
+-- End: Conditions 48 -- 
+run time: 21.341658 (s),  0.021341658 (s/pass),  1.587921e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.48/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.48/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1020
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.49/initial_state.json"
+
+-- Begin: Conditions 49 -- 
+
+-- End: Conditions 49 -- 
+run time: 21.073235 (s),  0.021073235 (s/pass),  1.567949e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.49/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.49/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 1000
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.50/initial_state.json"
+
+-- Begin: Conditions 50 -- 
+
+-- End: Conditions 50 -- 
+run time: 21.022211 (s),  0.021022211 (s/pass),  1.5641526e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.50/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.50/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 980
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.51/initial_state.json"
+
+-- Begin: Conditions 51 -- 
+
+-- End: Conditions 51 -- 
+run time: 21.08253 (s),  0.02108253 (s/pass),  1.5686406e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.51/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.51/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 960
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.52/initial_state.json"
+
+-- Begin: Conditions 52 -- 
+
+-- End: Conditions 52 -- 
+run time: 21.06415 (s),  0.02106415 (s/pass),  1.5672731e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.52/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.52/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 940
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.53/initial_state.json"
+
+-- Begin: Conditions 53 -- 
+
+-- End: Conditions 53 -- 
+run time: 21.32571 (s),  0.02132571 (s/pass),  1.5867344e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.53/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.53/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 920
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.54/initial_state.json"
+
+-- Begin: Conditions 54 -- 
+
+-- End: Conditions 54 -- 
+run time: 21.19279 (s),  0.02119279 (s/pass),  1.5768445e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.54/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.54/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 900
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.55/initial_state.json"
+
+-- Begin: Conditions 55 -- 
+
+-- End: Conditions 55 -- 
+run time: 21.218773 (s),  0.021218773 (s/pass),  1.5787778e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.55/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.55/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 880
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.56/initial_state.json"
+
+-- Begin: Conditions 56 -- 
+
+-- End: Conditions 56 -- 
+run time: 21.67238 (s),  0.02167238 (s/pass),  1.6125283e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.56/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.56/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 860
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.57/initial_state.json"
+
+-- Begin: Conditions 57 -- 
+
+-- End: Conditions 57 -- 
+run time: 21.310448 (s),  0.021310448 (s/pass),  1.5855988e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.57/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.57/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 840
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.58/initial_state.json"
+
+-- Begin: Conditions 58 -- 
+
+-- End: Conditions 58 -- 
+run time: 21.2487 (s),  0.0212487 (s/pass),  1.5810045e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.58/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.58/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 820
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.59/initial_state.json"
+
+-- Begin: Conditions 59 -- 
+
+-- End: Conditions 59 -- 
+run time: 21.124445 (s),  0.021124445 (s/pass),  1.5717593e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.59/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.59/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 800
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.60/initial_state.json"
+
+-- Begin: Conditions 60 -- 
+
+-- End: Conditions 60 -- 
+run time: 21.173552 (s),  0.021173552 (s/pass),  1.5754131e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.60/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.60/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 780
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.61/initial_state.json"
+
+-- Begin: Conditions 61 -- 
+
+-- End: Conditions 61 -- 
+run time: 21.089586 (s),  0.021089586 (s/pass),  1.5691656e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.61/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.61/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 760
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.62/initial_state.json"
+
+-- Begin: Conditions 62 -- 
+
+-- End: Conditions 62 -- 
+run time: 21.153227 (s),  0.021153227 (s/pass),  1.5739008e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.62/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.62/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 740
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.63/initial_state.json"
+
+-- Begin: Conditions 63 -- 
+
+-- End: Conditions 63 -- 
+run time: 21.129401 (s),  0.021129401 (s/pass),  1.5721281e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.63/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.63/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 720
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.64/initial_state.json"
+
+-- Begin: Conditions 64 -- 
+
+-- End: Conditions 64 -- 
+run time: 21.003486 (s),  0.021003486 (s/pass),  1.5627593e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.64/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.64/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 700
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.65/initial_state.json"
+
+-- Begin: Conditions 65 -- 
+
+-- End: Conditions 65 -- 
+run time: 21.121683 (s),  0.021121683 (s/pass),  1.5715538e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.65/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.65/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 680
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.66/initial_state.json"
+
+-- Begin: Conditions 66 -- 
+
+-- End: Conditions 66 -- 
+run time: 21.060197 (s),  0.021060197 (s/pass),  1.566979e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.66/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.66/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 660
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.67/initial_state.json"
+
+-- Begin: Conditions 67 -- 
+
+-- End: Conditions 67 -- 
+run time: 21.245092 (s),  0.021245092 (s/pass),  1.580736e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.67/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.67/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 640
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.68/initial_state.json"
+
+-- Begin: Conditions 68 -- 
+
+-- End: Conditions 68 -- 
+run time: 21.296377 (s),  0.021296377 (s/pass),  1.5845518e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.68/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.68/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 620
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.69/initial_state.json"
+
+-- Begin: Conditions 69 -- 
+
+-- End: Conditions 69 -- 
+run time: 21.211084 (s),  0.021211084 (s/pass),  1.5782057e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.69/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.69/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 600
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.70/initial_state.json"
+
+-- Begin: Conditions 70 -- 
+
+-- End: Conditions 70 -- 
+run time: 21.46602 (s),  0.02146602 (s/pass),  1.5971741e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.70/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.70/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 580
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.71/initial_state.json"
+
+-- Begin: Conditions 71 -- 
+
+-- End: Conditions 71 -- 
+run time: 22.128951 (s),  0.022128951 (s/pass),  1.6464993e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.71/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.71/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 560
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.72/initial_state.json"
+
+-- Begin: Conditions 72 -- 
+
+-- End: Conditions 72 -- 
+run time: 21.104844 (s),  0.021104844 (s/pass),  1.5703009e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.72/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.72/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 540
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.73/initial_state.json"
+
+-- Begin: Conditions 73 -- 
+
+-- End: Conditions 73 -- 
+run time: 21.26681 (s),  0.02126681 (s/pass),  1.5823519e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.73/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.73/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 520
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.74/initial_state.json"
+
+-- Begin: Conditions 74 -- 
+
+-- End: Conditions 74 -- 
+run time: 21.055834 (s),  0.021055834 (s/pass),  1.5666543e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.74/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.74/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 500
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.75/initial_state.json"
+
+-- Begin: Conditions 75 -- 
+
+-- End: Conditions 75 -- 
+run time: 21.595167 (s),  0.021595167 (s/pass),  1.6067833e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.75/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.75/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 480
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.76/initial_state.json"
+
+-- Begin: Conditions 76 -- 
+
+-- End: Conditions 76 -- 
+run time: 21.299071 (s),  0.021299071 (s/pass),  1.5847523e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.76/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.76/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 460
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.77/initial_state.json"
+
+-- Begin: Conditions 77 -- 
+
+-- End: Conditions 77 -- 
+run time: 21.133985 (s),  0.021133985 (s/pass),  1.5724691e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.77/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.77/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 440
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.78/initial_state.json"
+
+-- Begin: Conditions 78 -- 
+
+-- End: Conditions 78 -- 
+run time: 21.048117 (s),  0.021048117 (s/pass),  1.5660801e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.78/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.78/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 420
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.79/initial_state.json"
+
+-- Begin: Conditions 79 -- 
+
+-- End: Conditions 79 -- 
+run time: 21.51346 (s),  0.02151346 (s/pass),  1.6007039e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.79/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.79/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 400
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.80/initial_state.json"
+
+-- Begin: Conditions 80 -- 
+
+-- End: Conditions 80 -- 
+run time: 21.953759 (s),  0.021953759 (s/pass),  1.6334642e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.80/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.80/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 380
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.81/initial_state.json"
+
+-- Begin: Conditions 81 -- 
+
+-- End: Conditions 81 -- 
+run time: 21.958697 (s),  0.021958697 (s/pass),  1.6338316e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.81/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.81/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 360
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.82/initial_state.json"
+
+-- Begin: Conditions 82 -- 
+
+-- End: Conditions 82 -- 
+run time: 21.620668 (s),  0.021620668 (s/pass),  1.6086806e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.82/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.82/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 340
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.83/initial_state.json"
+
+-- Begin: Conditions 83 -- 
+
+-- End: Conditions 83 -- 
+run time: 22.290918 (s),  0.022290918 (s/pass),  1.6585504e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.83/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.83/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 320
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.84/initial_state.json"
+
+-- Begin: Conditions 84 -- 
+
+-- End: Conditions 84 -- 
+run time: 22.123204 (s),  0.022123204 (s/pass),  1.6460717e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.84/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.84/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 300
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.85/initial_state.json"
+
+-- Begin: Conditions 85 -- 
+
+-- End: Conditions 85 -- 
+run time: 22.376681 (s),  0.022376681 (s/pass),  1.6649316e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.85/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.85/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 280
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.86/initial_state.json"
+
+-- Begin: Conditions 86 -- 
+
+-- End: Conditions 86 -- 
+run time: 21.090343 (s),  0.021090343 (s/pass),  1.5692219e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.86/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.86/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 260
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.87/initial_state.json"
+
+-- Begin: Conditions 87 -- 
+
+-- End: Conditions 87 -- 
+run time: 22.230111 (s),  0.022230111 (s/pass),  1.6540261e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.87/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.87/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 240
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.88/initial_state.json"
+
+-- Begin: Conditions 88 -- 
+
+-- End: Conditions 88 -- 
+run time: 21.693048 (s),  0.021693048 (s/pass),  1.6140661e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.88/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.88/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 220
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.89/initial_state.json"
+
+-- Begin: Conditions 89 -- 
+
+-- End: Conditions 89 -- 
+run time: 21.009169 (s),  0.021009169 (s/pass),  1.5631822e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.89/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.89/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 200
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.90/initial_state.json"
+
+-- Begin: Conditions 90 -- 
+
+-- End: Conditions 90 -- 
+run time: 20.899516 (s),  0.020899516 (s/pass),  1.5550235e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.90/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.90/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 180
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.91/initial_state.json"
+
+-- Begin: Conditions 91 -- 
+
+-- End: Conditions 91 -- 
+run time: 21.091477 (s),  0.021091477 (s/pass),  1.5693063e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.91/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.91/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 160
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.92/initial_state.json"
+
+-- Begin: Conditions 92 -- 
+
+-- End: Conditions 92 -- 
+run time: 22.923666 (s),  0.022923666 (s/pass),  1.7056299e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.92/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.92/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 140
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.93/initial_state.json"
+
+-- Begin: Conditions 93 -- 
+
+-- End: Conditions 93 -- 
+run time: 21.063733 (s),  0.021063733 (s/pass),  1.5672421e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.93/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.93/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 120
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.94/initial_state.json"
+
+-- Begin: Conditions 94 -- 
+
+-- End: Conditions 94 -- 
+run time: 20.985186 (s),  0.020985186 (s/pass),  1.5613978e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.94/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.94/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 100
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.95/initial_state.json"
+
+-- Begin: Conditions 95 -- 
+
+-- End: Conditions 95 -- 
+run time: 21.005307 (s),  0.021005307 (s/pass),  1.5628949e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.95/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.95/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 80
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.96/initial_state.json"
+
+-- Begin: Conditions 96 -- 
+
+-- End: Conditions 96 -- 
+run time: 20.891945 (s),  0.020891945 (s/pass),  1.5544602e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.96/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.96/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 60
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.97/initial_state.json"
+
+-- Begin: Conditions 97 -- 
+
+-- End: Conditions 97 -- 
+run time: 22.867999 (s),  0.022867999 (s/pass),  1.701488e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.97/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.97/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 40
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.98/initial_state.json"
+
+-- Begin: Conditions 98 -- 
+
+-- End: Conditions 98 -- 
+run time: 22.629122 (s),  0.022629122 (s/pass),  1.6837145e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.98/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.98/conditions.json"
+
+
+-- Set: Conditions -- 
+T: 20
+param_chem_pot: [ 1.000000000000 ]
+
+
+-- Continue with existing DoF -- 
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.99/initial_state.json"
+
+-- Begin: Conditions 99 -- 
+
+-- End: Conditions 99 -- 
+run time: 23.482112 (s),  0.023482112 (s/pass),  1.747181e-05(s/step)
+
+-- Write: DoF -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.99/final_state.json"
+
+-- Write: Output files -- 
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/results.json"
+write: "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/cooling/mu_1.0000_1.0000_T_2000_20/conditions.99/conditions.json"
+
+
