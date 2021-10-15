@@ -1,0 +1,17 @@
+{
+    "__input_dir": "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/heating/",
+    "__input_modified": [
+        1631578158.0
+    ],
+    "__input_names": [
+        "transfmat"
+    ],
+    "__output_dir": "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/heating/",
+    "__output_names": [
+        "cached_output/template.nc"
+    ],
+    "__running_directory": "/media/derick/DeoResearch/experiments/rocksalt3_ZrN_casm/mc_coarse_new_scel/heating/",
+    "__script": "/home/derick/research/casm_viewer/python/reassign_occs/template_creator.py",
+    "__script_modified": 1626391709.0,
+    "__tinc_metadata_version": 0
+}
