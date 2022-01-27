@@ -244,3 +244,15 @@ ccasm query -k energy
 ccasm query -k formation_energy 
 # return: 0 runtime(s): 0.291326
 
+# 2021-10-14 18:21:42
+# jonnyli@jonnyli-desktop-ubu
+# 1.2.0
+ccasm query -k formation_energy 
+# return: 0 runtime(s): 0.239265
+
+# 2021-10-22 15:37:31
+# jonnyli@jonnyli-desktop-ubu
+# 1.2.0
+ccasm query -k 
+# return: 0 runtime(s): 0.102249
+
