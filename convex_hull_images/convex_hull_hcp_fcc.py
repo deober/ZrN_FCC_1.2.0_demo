@@ -19,21 +19,17 @@ trash, lower_hull_indices = cl.lower_hull(hull)
 hull_vertices = points[lower_hull_indices]
 hull_vertices = dj.column_sort(hull_vertices, 0)
 
-#TODO: put this under points
-#Check the HCP GS @ 50%
-plt.plot(hull_vertices[:, 0], hull_vertices[:, 1], color="k", label="Convex Hull")
-
-#TODO: Check zorder of the hull
-
+#TODO:Check the HCP GS @ 50%
+plt.plot(hull_vertices[:, 0], hull_vertices[:, 1], color="k", label="Convex Hull",zorder=1)
 
 # Need to divide formation energy by number of sites per prim
 plt.scatter(
-    np.array(hcp_data["comp"]), np.array(hcp_data["formation_energy"]) / 2, label="HCP"
+    np.array(hcp_data["comp"]), np.array(hcp_data["formation_energy"]) / 2, label="HCP",zorder=5
 )
 plt.scatter(
-    np.array(fcc_data["comp"]), np.array(fcc_data["formation_energy"]), label="FCC"
+    np.array(fcc_data["comp"]), np.array(fcc_data["formation_energy"]), label="FCC",zorder=6
 )
-plt.hlines(0, 0, 1, linestyles="dashed",color="k")
+plt.hlines(0, 0, 1, linestyles="dashed",color="k",zorder=0)
 plt.xticks(fontsize=15)
 plt.yticks(fontsize=15)
 
