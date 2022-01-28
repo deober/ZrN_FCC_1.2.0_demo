@@ -33,8 +33,6 @@ plt.hlines(0, 0, 1, linestyles="dashed",color="k",zorder=0)
 plt.xticks(fontsize=15)
 plt.yticks(fontsize=15)
 
-#TODO: Increase font size of scaling
-
 plt.legend(fontsize=15)
 #plt.title(r"ZrN$_{x}$ HCP and FCC Convex Hull", fontsize=30)
 plt.xlabel("Composition (x)", fontsize=20)
