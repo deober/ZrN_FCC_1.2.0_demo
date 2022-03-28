@@ -1,4 +1,3 @@
-from turtle import left
 import djlib.clex as cl
 import matplotlib.pyplot as plt
 import numpy as np
@@ -43,3 +42,4 @@ fig.set_size_inches(8, 6)
 plt.subplots_adjust(left=0.15,bottom=0.11)
 
 plt.show()
+plt.savefig('ZrN_HCP_FCC_convex_hull.pdf')
